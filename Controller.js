@@ -132,7 +132,8 @@ function Controller ()
     this.surface.addView (VIEW_RAINDROPS, new RaindropsView (this.model));
     this.surface.addView (VIEW_PIANO, new PianoView (this.model));
     this.surface.addView (VIEW_PRG_CHANGE, new PrgChangeView (this.model));
-    
+    this.surface.addView (VIEW_PLAY_CHORD, new PlayChordsView (this.model));
+
     scheduleTask (doObject (this, function ()
     {
         this.surface.setActiveView (VIEW_PLAY);

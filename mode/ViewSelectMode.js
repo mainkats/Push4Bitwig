@@ -10,7 +10,7 @@ ViewSelectMode.VIEWS =
     { id: VIEW_SEQUENCER, name: 'Squencr' },
     { id: VIEW_RAINDROPS, name: 'Raindrp' },
     { id: VIEW_DRUM, name: 'Drum' },
-    { id: null, name: '' },
+    { id: VIEW_PLAY_CHORD, name: 'PlayChrd' },
     { id: null, name: '' },
     { id: VIEW_PRG_CHANGE, name: 'PrgChnge' }
 ];
